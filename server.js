@@ -10,7 +10,7 @@ const app = express();
 const port = process.env.PORT || 5000;
 
 // Environment variables for Jamendo credentials
-const JAMENDO_CLIENT_ID = process.env.JAMENDO_CLIENT_ID || '3a6fa828';
+const JAMENDO_CLIENT_ID = process.env.JAMENDO_CLIENT_ID || '';
 const JAMENDO_API_BASE_URL = '';
 
 app.use(cors({ origin: 'http://localhost:3000' }));
