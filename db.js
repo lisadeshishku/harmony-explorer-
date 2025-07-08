@@ -1,6 +1,6 @@
 const { MongoClient } = require('mongodb');
 
-const uri = "mongodb://ugproject:sJcA8ThkguWGkMv6@c4dm-xenserv-virt5.eecs.qmul.ac.uk";
+const uri = "";
 let cachedDb = null; // Cache database connection
 
 async function connectToDatabase() {
